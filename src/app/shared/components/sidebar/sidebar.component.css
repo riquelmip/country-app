@@ -1,0 +1,11 @@
+#sidebar {
+  height: 100vh;
+}
+
+/* Estilos específicos para pantallas más pequeñas, por ejemplo, teléfonos */
+@media screen and (max-width: 992px) {
+
+  #sidebar {
+    height: auto; /* Otra altura, o simplemente omitir para usar el valor por defecto */
+  }
+}
